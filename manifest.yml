@@ -1,0 +1,12 @@
+modules:
+  'jira:issuePanel':
+    - key: jira-sentiment-analysis-translate
+      function: main
+      title: Jira Sentiment Analysis
+      description: Translate issue fields into other languages
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: 'ari:cloud:ecosystem::app/6e8f45a0-e583-4e3a-98bd-4e9d2ab86ee6'
+  name: Jira Sentiment Analysis
